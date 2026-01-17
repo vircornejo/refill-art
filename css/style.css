@@ -5,7 +5,10 @@
     box-sizing: border-box;
 }
 
+
+
 body {
+    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
 
@@ -48,9 +51,10 @@ main{
 }
 
 p {
+    display:flex;
     color: black;
     display: block;
-    width: 50%;
+    width: 80%;
     padding: 2%;
     margin: 10px 0;
     text-align: justify;
@@ -97,14 +101,18 @@ section h2 {
     color: white;
 }
 
+.mensajes{
+background-color: white;
+}
+
 h3 {
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 252, 252);
+    color: rgb(9, 9, 9);
 }
 
 h4 { 
-    background-color: rgb(54, 54, 54);
-    color: rgb(252, 252, 252);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 /* falta alinear mejor */
@@ -150,5 +158,36 @@ section form {
     color: white;
 }
 
+.cuadros{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: white;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 
+
+.cosas{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: white;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.noticias{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: rgba(255, 255, 255, 0.595);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.compras{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: rgba(255, 255, 255, 0.595);
+    align-items: center;
+    flex-wrap: wrap;
+}
