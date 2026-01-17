@@ -1,0 +1,144 @@
+
+* {
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+
+}
+
+/* header */
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: left;
+}
+
+h2 {
+    color: rgb(53, 52, 52);
+    background-color: white;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+/* links del header */
+ul {
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+/* main */
+
+main{
+    background-color: white;
+}
+
+p {
+    color: black;
+    display: block;
+    width: 50%;
+    padding: 2%;
+    margin: 10px 0;
+    text-align: justify;
+    
+}
+
+.segunda-propuesta {
+    background-color: black;
+    color: white;
+}
+
+section h1 {
+    background-color: white;
+    color: rgb(45, 44, 44);
+    font-size: 40px;
+
+}
+
+section h2 {
+    color: rgb(49, 49, 49, 0.863);
+    font-size: 25px;
+}
+
+.cuadros{
+    margin: 15px;
+
+}
+
+.objetos {
+    width: 300px;
+}
+
+.caja-de-mensajes{
+    align-content: center;
+    width: 50%;
+    height: 40hv;
+    background-color: grey;
+    padding: 2rem;
+    border-radius: 2%;
+}
+
+.mi-informacion {
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+}
+
+h4 { 
+    background-color: rgb(54, 54, 54);
+    color: rgb(252, 252, 252);
+}
+
+/* falta alinear mejor */
+.imagen-contacto {
+    align-self: center;
+    width: 100%;
+    max-height: 300px; 
+    display: block; 
+    align-items: center;
+}
+
+h5 {
+    color: black;
+}
+
+.mensaje {
+    color: rgb(84, 84, 84);
+    width: 90%; 
+    max-width: 500px;
+}
+
+section form {
+    margin: 0 auto;
+    color:rgb(45, 44, 44);     
+    width: 300px;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.newsletter {
+    color:rgb(46, 46, 60);
+}
+
+.instagram {
+    width: 20px;
+}
+
+
+
+
