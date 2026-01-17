@@ -5,16 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>refill-art</title>
     <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 </head> 
 
 <body>
 
-    <header> 
+    <header>
+        <section class="principal"> 
         <h1>refill art</h1>
         <h2>de Virginia Cornejo</h2>
+        </section>
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">inicio</a>
+                        <a class="nav-link" href="./pages/ideas.html">ideas</a>
+                        <a class="nav-link" href="./pages/productos.html">productos</a>
+                        <a class="nav-link" href="./pages/sobre-mi.html">sobre mi</a>
+                        <a class="nav-link" href="./pages/contacto.html">contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
+                <li><a href="./pages/ideas.html">ideas</a></li>
+                <li><a href="./pages/productos.html">productos</a></li>
                 <li><a href="./pages/sobre-mi.html">Sobre mí</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
             </ul>
@@ -33,12 +60,12 @@
         <section>
             <h2>archivo de artes visuales</h2>
                 <h4>galería de imágenes</h4>
-                    <div class="cuadros">
+                    <figure class="cuadros">
                     <img src="./imagenes/pintura2.jpg" alt="pintura2">
                     <img src="./imagenes/pintura3.jpg" alt="pintura3">
                     <img src="./imagenes/pintura4.jpg" alt="pintura4">
                     <img src="./imagenes/pintura5.jpg" alt="pintura5">
-                    </div>
+                    </figure>
                 
         </section>
         
@@ -78,5 +105,8 @@
                 <li><img src="./imagenes/redes-instagram.jpg" class="instagram"><a href="https://www.instagram.com/virginiacornejoart/?next=%2F" target="_blank">virginiacornejoart</a></li>
             </ul>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </body>
 </html>

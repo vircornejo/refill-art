@@ -12,17 +12,21 @@ body {
 }
 
 /* header */
+.principal{
+background-color: rgb(255, 255, 255);
+}
+
 h1 {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    font-size: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 240, 240);
+    font-size: 60px;
     text-align: left;
 }
 
 h2 {
-    color: rgb(53, 52, 52);
+    color: rgb(73, 73, 73);
     background-color: white;
-    font-size: 1.5em;
+    font-size: 0,5rem;
     text-align: left;
 }
 
@@ -139,6 +143,12 @@ section form {
     width: 20px;
 }
 
+/* pseudoelementos */
+
+::selection{
+    background-color: crimson;
+    color: white;
+}
 
 
 
