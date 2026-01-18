@@ -5,8 +5,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     margin: 20px;
     padding: 15px;
@@ -36,6 +34,7 @@ h2 {
     background-color: white;
     font-size: 0,5rem;
     text-align: left;
+    padding: 10px;
 }
 
 /* links del header */
@@ -229,7 +228,7 @@ section form {
 }
 
 footer{
-    background-color: rgb(254, 254, 255);
+    background-color: rgb(255, 255, 255);
 }
 
 .img-intro{
@@ -249,7 +248,7 @@ footer{
 }
 .redes{
     display:flex;
-    background-color: #fbf7f7;
+    background-color: #ffffff;
     padding: 30px;
     flex-wrap: wrap;
 }
