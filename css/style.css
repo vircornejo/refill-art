@@ -8,10 +8,10 @@
 
 
 body {
-    margin: 20px;
+    margin: 30px;
+    padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-
 }
 
 /* header */
@@ -24,6 +24,11 @@ h1 {
     background-color: rgb(244, 240, 240);
     font-size: 60px;
     text-align: left;
+}
+
+.introduccion{
+    margin: 20px;
+    padding: 20px;
 }
 
 h2 {
@@ -87,11 +92,18 @@ section h2 {
     width: 300px;
 }
 
+
+/* no encontré la manera de ordenarlo bien en modo desktop */
 .caja-de-mensajes{
-    align-content: center;
-    width: 50%;
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 60%;
     height: 40hv;
-    background-color: grey;
+    background-color: rgba(243, 191, 159, 0.871);
+    border: 1px, solid, rgb(165, 72, 72);
     padding: 2rem;
     border-radius: 2%;
 }
@@ -140,12 +152,9 @@ section form {
     width: 300px;
     background-color: grey;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
-.newsletter {
-    color:rgb(46, 46, 60);
-}
 
 .instagram {
     width: 20px;
@@ -162,19 +171,12 @@ section form {
     display:flex;
     justify-content:space-evenly;
     background-color: white;
-    align-items: center;
     flex-wrap: wrap;
+    space: arround 20px;
+    gap:20px;
 }
 
 
-
-.cosas{
-    display:flex;
-    justify-content:space-evenly;
-    background-color: white;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
 .noticias{
     display:flex;
@@ -182,6 +184,7 @@ section form {
     background-color: rgba(255, 255, 255, 0.595);
     align-items: center;
     flex-wrap: wrap;
+    padding: 30px;
 }
 
 .compras{
@@ -189,5 +192,66 @@ section form {
     justify-content:space-evenly;
     background-color: rgba(255, 255, 255, 0.595);
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.mural-byn{
+    width: 100%;
+}
+
+.sobre-mi{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 20px;
+    
+}
+
+.cuadricula{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.img-productos{
+    max-width: 700px;
+}
+
+.dibujos{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.newsletter{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+footer{
+    background-color: rgb(254, 254, 255);
+}
+
+.img-intro{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.objetos{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.cosas{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.redes{
+    display:flex;
+    background-color: #fbf7f7;
+    padding: 30px;
     flex-wrap: wrap;
 }
