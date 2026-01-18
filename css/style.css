@@ -8,7 +8,7 @@
 
 
 body {
-    margin: 30px;
+    margin: 20px;
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
@@ -16,7 +16,7 @@ body {
 
 /* header */
 .principal{
-background-color: rgb(255, 255, 255);
+background-color: rgb(210, 62, 62);
 }
 
 h1 {
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(73, 73, 73);
+    color: rgb(53, 52, 52);
     background-color: white;
     font-size: 0,5rem;
     text-align: left;
@@ -59,7 +59,7 @@ p {
     display:flex;
     color: black;
     display: block;
-    width: 80%;
+    width: 100%;
     padding: 2%;
     margin: 10px 0;
     text-align: justify;
@@ -67,14 +67,15 @@ p {
 }
 
 .segunda-propuesta {
-    background-color: black;
-    color: white;
+    background-color: rgb(47, 46, 46);
+    color: rgb(255, 255, 255);
 }
 
 section h1 {
-    background-color: white;
+    background-color: rgb(2248, 189, 166);
     color: rgb(45, 44, 44);
     font-size: 40px;
+    padding: 15px;
 
 }
 
@@ -96,12 +97,11 @@ section h2 {
 /* no encontré la manera de ordenarlo bien en modo desktop */
 .caja-de-mensajes{
     display:flex;
-    align-items: flex-start;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 30px;
-    width: 60%;
     height: 40hv;
+    min-width: 300px;
     background-color: rgba(243, 191, 159, 0.871);
     border: 1px, solid, rgb(165, 72, 72);
     padding: 2rem;
@@ -120,14 +120,14 @@ background-color: white;
 h3 {
     background-color: rgb(255, 252, 252);
     color: rgb(9, 9, 9);
+    font-size: 0,3rem;
 }
 
 h4 { 
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgb(241, 228, 221);
+    padding: 10px;
 }
 
-/* falta alinear mejor */
 .imagen-contacto {
     align-self: center;
     width: 100%;
@@ -137,7 +137,7 @@ h4 {
 }
 
 h5 {
-    color: black;
+    color: rgb(205, 49, 49);
 }
 
 .mensaje {
@@ -175,8 +175,6 @@ section form {
     space: arround 20px;
     gap:20px;
 }
-
-
 
 .noticias{
     display:flex;
