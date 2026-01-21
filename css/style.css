@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     margin: 20px;
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,13 +13,13 @@ body {
 }
 
 /* header */
-.principal{
-background-color: rgb(210, 62, 62);
-}
 
+.principal{
+    background-color: coral;
+}
 h1 {
-    color: rgb(0, 0, 0);
-    background-color: rgb(244, 240, 240);
+    color: rgb(8, 8, 8);
+    background-color: rgb(255, 255, 255);
     font-size: 60px;
     text-align: left;
 }
@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(53, 52, 52);
+    color: rgb(35, 34, 34);
     background-color: white;
     font-size: 0,5rem;
     text-align: left;
@@ -92,19 +92,23 @@ section h2 {
     width: 300px;
 }
 
-
-/* no encontré la manera de ordenarlo bien en modo desktop */
 .caja-de-mensajes{
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 30px;
-    height: 40hv;
     min-width: 300px;
-    background-color: rgba(243, 191, 159, 0.871);
+    background-color: rgba(249, 199, 169, 0.871);
     border: 1px, solid, rgb(165, 72, 72);
-    padding: 2rem;
-    border-radius: 2%;
+    padding: 30px;
+    border-radius: 5px;
+}
+.mensaje{
+    display:grid;
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+    background-color: rgb(252, 203, 185);
+    color: crimson;
+    padding: 20px;
 }
 
 .mi-informacion {
@@ -112,9 +116,7 @@ section h2 {
     color: white;
 }
 
-.mensajes{
-background-color: white;
-}
+
 
 h3 {
     background-color: rgb(255, 252, 252);
@@ -123,7 +125,8 @@ h3 {
 }
 
 h4 { 
-    background-color: rgb(241, 228, 221);
+    background-color: rgb(253, 250, 248);
+    color:rgb(55, 54, 54);
     padding: 10px;
 }
 
@@ -136,14 +139,9 @@ h4 {
 }
 
 h5 {
-    color: rgb(205, 49, 49);
+    color: rgb(72, 44, 44);
 }
 
-.mensaje {
-    color: rgb(84, 84, 84);
-    width: 90%; 
-    max-width: 500px;
-}
 
 section form {
     margin: 0 auto;
@@ -159,8 +157,6 @@ section form {
     width: 20px;
 }
 
-/* pseudoelementos */
-
 ::selection{
     background-color: crimson;
     color: white;
@@ -171,8 +167,22 @@ section form {
     justify-content:space-evenly;
     background-color: white;
     flex-wrap: wrap;
-    space: arround 20px;
     gap:20px;
+}
+
+.citas{
+display:flex;
+width: 90%;
+flex-wrap: wrap;
+}
+
+.filosofos{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: antiquewhite;
+    padding: 20px;
+    justify-content: space-evenly;
 }
 
 .noticias{
@@ -199,15 +209,23 @@ section form {
 .sobre-mi{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 100%;
     padding: 20px;
-    
+    background-color: rgb(248, 223, 190);
 }
 
+.mis-datos{
+    display:flex;
+    color: rgb(17, 16, 16);
+    width: 90%;
+    padding: 30px;
+}
 .cuadricula{
     display:flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 .img-productos{
@@ -217,14 +235,20 @@ section form {
 .dibujos{
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 20px;
 }
 
 .newsletter{
-    display:flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: 1fr,1fr,1fr;
+    width: 80%;
     gap:10px;
+    background-color: rgb(250, 160, 127);
+    color: rgb(100, 5, 24);
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px, solid, rgb(152, 0, 0);
 }
 
 footer{
@@ -245,10 +269,23 @@ footer{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 20px;
+    gap: 10px;
 }
 .redes{
     display:flex;
     background-color: #ffffff;
     padding: 30px;
     flex-wrap: wrap;
+}
+
+@media (min-width: 500px){
+
+    .newsletter{
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap:20px;
+    }
+
 }
