@@ -1,13 +1,12 @@
 
 * {
-    margin: o;
-    padding: o;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    margin: 20px;
-    padding: 15px;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
 }
@@ -17,22 +16,24 @@ body{
 .principal{
     background-color: coral;
 }
+
 h1 {
     color: rgb(8, 8, 8);
     background-color: rgb(255, 255, 255);
     font-size: 60px;
     text-align: left;
+    padding: 10px;
 }
 
 .introduccion{
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
 }
 
 h2 {
     color: rgb(35, 34, 34);
     background-color: white;
-    font-size: 0,5rem;
+    font-size: 0.5rem;
     text-align: left;
     padding: 10px;
 }
@@ -55,60 +56,30 @@ main{
 }
 
 p {
-    display:flex;
     color: black;
     display: block;
     width: 100%;
-    padding: 2%;
-    margin: 10px 0;
+    padding: 20px;
+    margin: 10px;
     text-align: justify;
-    
 }
 
 .segunda-propuesta {
     background-color: rgb(47, 46, 46);
     color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 section h1 {
-    background-color: rgb(2248, 189, 166);
+    background-color: rgb(248, 189, 166);
     color: rgb(45, 44, 44);
     font-size: 40px;
-    padding: 15px;
-
+    padding: 20px;
 }
 
 section h2 {
-    color: rgb(49, 49, 49, 0.863);
+    color: rgb(49 49 49 / 0.863);
     font-size: 25px;
-}
-
-.cuadros{
-    margin: 15px;
-
-}
-
-.objetos {
-    width: 300px;
-}
-
-.caja-de-mensajes{
-    display:flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 30px;
-    min-width: 300px;
-    background-color: rgba(249, 199, 169, 0.871);
-    border: 1px, solid, rgb(165, 72, 72);
-    padding: 30px;
-    border-radius: 5px;
-}
-.mensaje{
-    display:grid;
-    grid-template-columns: 1fr,1fr,1fr,1fr;
-    background-color: rgb(252, 203, 185);
-    color: crimson;
-    padding: 20px;
 }
 
 .mi-informacion {
@@ -116,12 +87,11 @@ section h2 {
     color: white;
 }
 
-
-
-h3 {
+h3{
     background-color: rgb(255, 252, 252);
     color: rgb(9, 9, 9);
-    font-size: 0,3rem;
+    font-size: 0.3rem;
+    padding: 10px;
 }
 
 h4 { 
@@ -131,25 +101,15 @@ h4 {
 }
 
 .imagen-contacto {
+    display: block; 
     align-self: center;
     width: 100%;
     max-height: 300px; 
-    display: block; 
     align-items: center;
 }
 
 h5 {
     color: rgb(72, 44, 44);
-}
-
-
-section form {
-    margin: 0 auto;
-    color:rgb(45, 44, 44);     
-    width: 300px;
-    background-color: grey;
-    padding: 10px;
-    border-radius: 2px;
 }
 
 
@@ -164,16 +124,21 @@ section form {
 
 .cuadros{
     display:flex;
-    justify-content:space-evenly;
-    background-color: white;
     flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: rgb(255, 255, 255);
     gap:20px;
+    padding: 20px;
+}
+.cuadros:hover{
+    background-color: crimson;
 }
 
 .citas{
 display:flex;
 width: 90%;
 flex-wrap: wrap;
+padding: 10px;
 }
 
 .filosofos{
@@ -183,12 +148,13 @@ flex-wrap: wrap;
     background-color: antiquewhite;
     padding: 20px;
     justify-content: space-evenly;
+    border-radius: 10px;
 }
 
 .noticias{
+    background-color: white;
     display:flex;
     justify-content:space-evenly;
-    background-color: rgba(255, 255, 255, 0.595);
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
@@ -197,9 +163,11 @@ flex-wrap: wrap;
 .compras{
     display:flex;
     justify-content:space-evenly;
-    background-color: rgba(255, 255, 255, 0.595);
+    background-color: antiquewhite;
     align-items: center;
     flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
 }
 
 .mural-byn{
@@ -211,7 +179,8 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     max-width: 100%;
     padding: 20px;
-    background-color: rgb(248, 223, 190);
+    background-color: rgb(243, 225, 202);
+    border-radius: 10px;
 }
 
 .mis-datos{
@@ -236,19 +205,51 @@ flex-wrap: wrap;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: rgb(255, 176, 151);
+    padding: 20px;
     gap: 20px;
 }
 
+.dibujos:hover{
+    background-color: crimson;
+}
+
+.caja-de-mensajes{
+    display: flex;
+    min-width: 400px;
+    background-color: rgb(252, 203, 185);
+    border: 1px solid rgb(165, 72, 72);
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.mensajes{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(252, 203, 185);
+    color: crimson;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 20px;
+}
+
 .newsletter{
-    display:grid;
-    grid-template-columns: 1fr,1fr,1fr;
-    width: 80%;
-    gap:10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
     background-color: rgb(250, 160, 127);
     color: rgb(100, 5, 24);
     padding: 30px;
-    border-radius: 5px;
+    gap:20px;
+    border-radius: 10px;
     border: 1px, solid, rgb(152, 0, 0);
+}
+
+.enviar:hover{
+    background-color: rgb(234, 110, 110);
+    color:crimson;
 }
 
 footer{
@@ -263,6 +264,9 @@ footer{
 .objetos{
     display:flex;
     flex-wrap: wrap;
+    width: 300px;
+    gap: 20px;
+    margin: 10px;
 }
 
 .cosas{
@@ -274,18 +278,24 @@ footer{
 }
 .redes{
     display:flex;
-    background-color: #ffffff;
-    padding: 30px;
+    background-color: white;
+    padding: 20px;
     flex-wrap: wrap;
 }
 
-@media (min-width: 500px){
+@media (max-width: 500px){
 
     .newsletter{
-        display:flex;
-        flex-wrap: wrap;
-        width: 100%;
-        gap:20px;
-    }
+    display:grid;
+}
+
+.caja-de-mensajes{
+    display: grid;
+    max-width: 400px;
+}
+
+.mensajes{
+    display: grid;
+}
 
 }
