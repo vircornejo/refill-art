@@ -1,0 +1,17 @@
+
+@use '../utilities/variables' as *;
+
+
+.principal{
+    background-color: $color-header;
+}
+
+ul {
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: $color-titulo;
+    background-color: $color-fondo;
+}

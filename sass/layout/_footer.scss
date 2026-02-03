@@ -1,0 +1,30 @@
+
+@use '../utilities/variables' as *;
+@use '../utilities/mixins' as *;
+
+.newsletter{
+    @include flex-base (wrap, space-evenly);
+    width: 100%;
+    background-color: $color-newsletter;
+    color: $color-h5;
+    padding: $padding-contenido;
+    gap:20px;
+    border-radius: $borde-redondeado;
+    border: 1px, solid, $color-h5;
+}
+
+
+footer{
+    background-color: $color-fondo;
+}
+
+.redes{
+    @include flex-base (wrap, null);
+    background-color: $color-fondo;
+    padding: $padding-contenido;
+}
+
+.instagram {
+    width: 20px;
+}
+

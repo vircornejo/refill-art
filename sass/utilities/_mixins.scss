@@ -1,0 +1,7 @@
+
+
+@mixin flex-base ($wrap, $justify){
+    display:flex;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+}

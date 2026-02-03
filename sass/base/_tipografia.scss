@@ -1,0 +1,76 @@
+
+@use '../utilities/variables' as *;
+
+h1 {
+    color: $color-titulo;
+    background-color: $color-fondo;
+    font-size: 60px;
+    text-align: left;
+    padding: $padding-texto;
+}
+
+h2 {
+    color: $color-subtitulo;
+    background-color: $color-fondo;
+    font-size: 0.5rem;
+    text-align: left;
+    padding: $padding-texto;
+}
+
+p {
+    color: $color-titulo;
+    display: block;
+    width: 100%;
+    padding: $padding-contenido;
+    margin: 10px;
+    text-align: justify;
+}
+
+
+.introduccion{
+    margin: 10px;
+    padding: $padding-contenido;
+}
+
+.segunda-propuesta {
+    background-color: $color-fondo-secundario;
+    color: $color-texto-secundario;
+    border-radius: $borde-redondeado;
+}
+
+
+section h1 {
+    background-color: $color-fondo-sech1;
+    color: $color-texto-sech;
+    font-size: 40px;
+    padding: $padding-contenido;
+}
+
+section h2 {
+    color: $color-sech2;
+    font-size: 25px;
+}
+
+.mi-informacion {
+    background-color: $color-fondo-secundario;
+    color: $color-texto-secundario;
+}
+
+h3{
+    background-color: $color-fondo;
+    color: $color-titulo;
+    font-size: 0.3rem;
+    padding: $padding-texto;
+}
+
+h4 { 
+    background-color: $color-fondo;
+    color: $color-h4;
+    padding: $padding-texto;
+}
+
+
+h5 {
+    color: $color-h5;
+}
+

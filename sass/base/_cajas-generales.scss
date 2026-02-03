@@ -1,0 +1,79 @@
+
+@use '../utilities/variables' as *;
+@use '../utilities/mixins' as *;
+
+
+
+
+.cuadros{
+    @include flex-base (wrap, space-evenly);
+    background-color: $color-fondo;
+    gap:20px;
+    padding: $padding-contenido;
+}
+
+
+.citas{
+    @include flex-base (wrap, null);
+    width: 90%;
+    padding: $padding-texto;
+}
+
+.filosofos{
+    @include flex-base (wrap, space-evenly);
+    gap: 20px;
+    background-color: $color-fondo-apartado;
+    padding: $padding-contenido;
+    border-radius: $borde-redondeado;
+}
+
+
+.objetos{
+    @include flex-base (wrap, null);
+    width: 300px;
+    gap: 20px;
+    margin: 10px;
+}
+
+.cosas{
+    @include flex-base (wrap, space-evenly);
+    padding: $padding-contenido;
+    gap: 10px;
+}
+
+.dibujos{
+    @include flex-base (wrap, space-evenly);
+    background-color: $color-fondo-extra;
+    padding: $padding-contenido;
+    gap: 20px;
+}
+
+
+.sobre-mi{
+    @include flex-base (wrap, null);
+    max-width: 100%;
+    padding: $padding-contenido;
+    background-color: $color-fondo-apartado2;
+    border-radius: $borde-redondeado;
+}
+
+.mis-datos{
+    display:flex;
+    color: $color-subtitulo;
+    width: 90%;
+    padding: 30px;
+}
+
+.cuadricula{
+    @include flex-base (wrap, space-evenly);
+    gap: 20px;
+    padding: $padding-contenido;
+}
+
+.compras{
+    @include flex-base (wrap, space-evenly);
+    background-color: $color-fondo-apartado;
+    align-items: center;
+    gap: 10px;
+    padding: $padding-contenido
+}

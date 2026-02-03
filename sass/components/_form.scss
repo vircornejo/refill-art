@@ -1,0 +1,31 @@
+
+@use '../utilities/variables' as *;
+@use '../utilities/mixins' as *;
+
+
+.caja-de-mensajes{
+    display: flex;
+    min-width: 400px;
+    background-color: $color-fondo-extra;
+    border: 1px solid $color-resaltado;
+    padding: $padding-texto;
+    gap: 10px;
+    border-radius: $borde-redondeado;
+}
+
+.mensajes{
+    @include flex-base (wrap, null);
+    background-color: $color-fondo-extra;
+    color: $color-resaltado;
+    padding: $padding-texto;
+    gap: 10px;
+    border-radius: $borde-redondeado;
+}
+
+
+.noticias{
+    @include flex-base (wrap, space-evenly);
+    background-color: $color-fondo;
+    align-items: center;
+    padding: 30px;
+}

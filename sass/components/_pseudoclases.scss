@@ -1,0 +1,18 @@
+@use '../utilities/variables' as *;
+
+::selection{
+    background-color: $color-resaltado;
+    color: $color-texto-secundario;
+}
+.cuadros:hover{
+    background-color: $color-resaltado;
+}
+
+.dibujos:hover{
+    background-color: $color-resaltado;
+}
+
+.enviar:hover{
+    background-color: $color-header;
+    color:$color-resaltado;
+}

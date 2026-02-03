@@ -1,0 +1,9 @@
+
+@use '../utilities/variables' as *;
+
+
+body{
+    padding: $padding-texto;
+    font-family: $font-principal;
+    background-color: $color-fondo;
+}
