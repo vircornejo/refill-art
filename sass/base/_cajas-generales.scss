@@ -12,9 +12,19 @@
     padding: $padding-contenido;
 }
 
+.filosofo-1{
+    display:flex;
+    flex-wrap: wrap;
+    padding: $padding-texto;
+    margin-top: 30px;
+    max-width: 800px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 
 .citas{
-    @include flex-base (wrap, null);
+    @include flex-base (wrap, center);
     width: 90%;
     padding: $padding-texto;
 }

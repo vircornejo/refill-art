@@ -5,3 +5,7 @@
     flex-wrap: $wrap;
     justify-content: $justify;
 }
+
+@mixin botones ($color, $border-color){
+    border: solor crimson 1px;
+}

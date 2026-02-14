@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contacto</title>
+    <title>refill-art | contacto</title>
     <link rel="stylesheet" href="../css/style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -26,11 +26,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="../index.html">inicio</a>
-                        <a class="nav-link" href="ideas.html">ideas</a>
-                        <a class="nav-link" href="productos.html">productos</a>
-                        <a class="nav-link" href="sobre-mi.html">sobre mi</a>
-                        <a class="nav-link" href="contacto.html">contacto</a>
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="ideas.html">Ideas</a>
+                        <a class="nav-link" href="productos.html">Productos</a>
+                        <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -42,25 +42,25 @@
     <main>
     <img src="../imagenes/contacto.jpg" class="imagen-contacto" alt="inagen-escritorio">
         <section> 
-            <h2>contacto</h2> 
+            <h2>Contacto</h2> 
 
-            <h3>envíame un mensaje</h3>
+            <h3>Envíame un mensaje</h3>
                 <section class="caja-de-mensajes">
                     <form action="/submit" method="post" class="mensajes">
                         
-                        <label for="name_form">nombre</label>
-                        <input type="text" id="nameform">
+                        <label for="name_form">Nombre</label>
+                        <input type="text" class="campo-redondo" id="nameform">
 
-                        <label for="name_form">apellido</label>
-                        <input type="text" id="nameform">
+                        <label for="name_form">Apellido</label>
+                        <input type="text" class="campo-redondo" id="nameform">
 
-                        <label for="comentario">mensaje</label>
-                        <textarea name="mensaje" id="mensaje"></textarea>
+                        <label for="comentario">Mensaje</label>
+                        <textarea name="mensaje" class="campo-redondo" id="mensaje"></textarea>
 
-                        <label for="name_form">email</label>
-                        <input type="text" id="nameform" placeholder="type_email"> 
+                        <label for="name_form">Email</label>
+                        <input type="text" class="campo-redondo" id="nameform" placeholder="type_email"> 
 
-                        <input type="submit" value="enviar">
+                        <input type="submit" class="campo-redondo" value="Enviar">
                     </form>
                 </section>
     </main>
@@ -68,28 +68,35 @@
     <footer> 
     <hr>
         
-        <h4>recibí el newsletter</h4>
-            <h5>suscribite al newsletter para recibir nuevas inspiraciones</h5>
+        <section class="apartado-footer">
+        <div class="titulo-footer"> 
+        <h3>¡Recibí el newsletter!</h3>
+        </div>
+            <h5>Suscribite al newsletter para recibir nuevas inspiraciones</h5>
                 <div class="noticias">
                     <form action="/submit" method="post" class="newsletter">
-                        <label for="name_form">nombre</label>
-                        <input type="text" id="nameform">
+                        <label for="name_form">Nombre</label>
+                        <input type="text" class="campo-redondo" id="nameform">
 
-                        <label for="name_form">apellido</label>
-                        <input type="text" id="nameform">
+                        <label for="name_form">Apellido</label>
+                        <input type="text" class="campo-redondo" id="nameform">
 
-                        <label for="name_form">email</label>
-                        <input type="text" id="nameform" placeholder="escribir aqui"> 
+                        <label for="name_form">Email</label>
+                        <input type="text" class="campo-redondo" id="nameform" placeholder="Escribir aqui"> 
 
-                        <input type="submit" value="enviar">
+                        <input type="submit" class="campo-redondo" value="Enviar">
                     </form>
                 </div>
-        
+        </section>
+
         <!-- espacio para redes sociales -->
+    <hr>
         <section class="redes">
-        <h4>redes sociales</h4>
             <ul>
+                <li><button style="background-color: lightgoldenrodyellow; color:  crimson; padding: 20px; border-radius: 10px; border: none; font-size: 20px;" type="button" disabled>¡Seguíme en redes!</button></li>
+            
                 <li><img src="../imagenes/redes-instagram.jpg" class="instagram"><a href="https://www.instagram.com/virginiacornejoart/?next=%2F" target="_blank">virginiacornejoart</a></li>
+                <li><buttom style="background-color: none; color:crimson; padding: 20px; border-radius: 10px; border: none; font-size: 20px;" type="button" disabled>vircornejo3@gmail.com</button></li>
             </ul>
         </section>
     </footer>

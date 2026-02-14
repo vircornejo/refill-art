@@ -26,28 +26,29 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="index.html">inicio</a>
-                        <a class="nav-link" href="./pages/ideas.html">ideas</a>
-                        <a class="nav-link" href="./pages/productos.html">productos</a>
-                        <a class="nav-link" href="./pages/sobre-mi.html">sobre mi</a>
-                        <a class="nav-link" href="./pages/contacto.html">contacto</a>
+                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link" href="./pages/ideas.html">Ideas</a>
+                        <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        <a class="nav-link" href="./pages/sobre-mi.html">Sobre mi</a>
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                     </div>
                 </div>
             </div>
         </nav>
+        
     </header>
     <hr>
     <main>  
         <section class="introduccion"> 
-            <h3>laboratorio de ideas</h3>
+            <h3>Laboratorio de ideas</h3>
                 <p>Un espacio que funciona a modo de proyecto, un borrador que reúne tanto algunas obras terminadas como otras en proceso de construcción. Tienen lugar también, quellas que al momento se encuentran inconclusas. Espero que el material compartido resulte inspirador y convoque a la expresión de tu creatividad, tome la configuración que tome. </p>
 
                 <p class="segunda-propuesta">Una invitación para ir más allá de los márgenes convencionales e instituidos de la creación artística, para romper con la concepción de que la actividad creativa se relaciona solo con el campo de aquellos que se dedican al arte de manera profesional. Un espacio taller que motorice la divergencia de la imaginación</p>
         </section>
     <hr> 
         <section>
-            <h2>archivo de artes visuales</h2>
-                <h4>galería de imágenes</h4>
+            <h2>Archivo de artes visuales</h2>
+                <h4>Galería de imágenes</h4>
                     <figure class="cuadros">
                     <img src="./imagenes/pintura2.jpg" alt="pintura2">
                     <img src="./imagenes/pintura3.jpg" alt="pintura3">
@@ -56,8 +57,8 @@
                     </figure>
         </section>
         <section>
-            <h2>objetos</h2>
-                <h4>material de inspiración</h4>
+            <h2>Objetos</h2>
+                <h4>Material de inspiración</h4>
                     <figure class="cosas"> 
                     <img src="./imagenes/totebag.jpg" class="objetos" alt="tote-bag">
                     <img src="./imagenes/journal.jpg" class="objetos" alt="journal">
@@ -69,30 +70,40 @@
 
     <footer> 
     <hr>
-        <h4>recibí el newsletter</h4>
-            <h5>suscribite al newsletter para recibir nuevas inspiraciones</h5>
+        
+        <section class="apartado-footer">
+        <div class="titulo-footer"> 
+        <h3>¡Recibí el newsletter!</h3>
+        </div>
+            <h5>Suscribite al newsletter para recibir nuevas inspiraciones</h5>
                 <div class="noticias">
                     <form action="/submit" method="post" class="newsletter">
-                        <label for="name_form">nombre</label>
-                        <input type="text" id="nameform">
+                        <label for="name_form">Nombre</label>
+                        <input type="text" class="campo-redondo" id="nameform">
 
-                        <label for="name_form">apellido</label>
-                        <input type="text" id="nameform">
+                        <label for="name_form">Apellido</label>
+                        <input type="text" class="campo-redondo" id="nameform">
 
-                        <label for="name_form">email</label>
-                        <input type="text" id="nameform" placeholder="escribir aqui"> 
+                        <label for="name_form">Email</label>
+                        <input type="text" class="campo-redondo" id="nameform" placeholder="Escribir aqui"> 
 
-                        <input type="submit" value="enviar">
+                        <input type="submit" class="campo-redondo" value="Enviar">
                     </form>
                 </div>
+        </section>
+
         <!-- espacio para redes sociales -->
+    <hr>
         <section class="redes">
-        <h2>redes sociales</h2>
             <ul>
+                <li><button style="background-color: lightgoldenrodyellow; color:  crimson; padding: 20px; border-radius: 10px; border: none; font-size: 20px;" type="button" disabled>¡Seguíme en redes!</button></li>
+            
                 <li><img src="./imagenes/redes-instagram.jpg" class="instagram"><a href="https://www.instagram.com/virginiacornejoart/?next=%2F" target="_blank">virginiacornejoart</a></li>
+                <li><buttom style="background-color: none; color:crimson; padding: 20px; border-radius: 10px; border: none; font-size: 20px;" type="button" disabled>vircornejo3@gmail.com</button></li>
             </ul>
         </section>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

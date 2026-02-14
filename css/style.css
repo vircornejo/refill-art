@@ -63,18 +63,21 @@ section h2 {
 h3 {
   background-color: white;
   color: black;
-  font-size: 0.3rem;
+  font-size: 20px;
   padding: 10px;
 }
 
 h4 {
   background-color: white;
   color: rgb(55, 54, 54);
-  padding: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
 h5 {
   color: rgb(100, 5, 25);
+  padding: 10px;
 }
 
 .cuadros {
@@ -86,9 +89,20 @@ h5 {
   padding: 20px;
 }
 
+.filosofo-1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 30px;
+  max-width: 800px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .citas {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 90%;
   padding: 10px;
 }
@@ -169,6 +183,7 @@ h5 {
   border: 1px solid crimson;
   padding: 10px;
   gap: 10px;
+  margin: 10px;
   border-radius: 12px;
 }
 
@@ -180,15 +195,26 @@ h5 {
   padding: 10px;
   gap: 10px;
   border-radius: 12px;
+  font-weight: bold;
+  font-size: 0, 3rem;
 }
 
 .noticias {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: white;
+  background-color: lightgoldenrodyellow;
   align-items: center;
   padding: 30px;
+  font-weight: bold;
+  font-size: 0, 5rem;
+}
+
+.campo-redondo {
+  border-radius: 5px;
+  border-color: coral;
+  padding: 8px;
+  background-color: lightgoldenrodyellow;
 }
 
 ::selection {
@@ -220,7 +246,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100%;
-  background-color: rgb(250, 160, 127);
+  background-color: rgb(255, 172, 142);
   color: rgb(100, 5, 25);
   padding: 20px;
   gap: 20px;
@@ -228,19 +254,39 @@ body {
   border: 1px, solid, rgb(100, 5, 25);
 }
 
+input, text {
+  border-radius: 5px;
+}
+
 footer {
   background-color: white;
 }
 
-.redes {
+.titulo-footer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.redes ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 10px;
   background-color: white;
   padding: 20px;
 }
 
+.apartado-footer {
+  background-color: lightgoldenrodyellow;
+}
+
 .instagram {
-  width: 20px;
+  width: 40px;
+  margin: 10px;
 }
 
 .principal {
@@ -255,6 +301,10 @@ header nav ul li a {
   text-decoration: none;
   color: black;
   background-color: white;
+}
+
+.navbar-toggler:hover {
+  color: coral;
 }
 
 main {
@@ -284,7 +334,10 @@ main {
   }
 }
 .img-productos {
+  display: flex;
+  justify-content: center;
   max-width: 700px;
+  align-items: center;
 }
 
 .img-intro {

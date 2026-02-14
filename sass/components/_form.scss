@@ -10,6 +10,7 @@
     border: 1px solid $color-resaltado;
     padding: $padding-texto;
     gap: 10px;
+    margin: 10px;
     border-radius: $borde-redondeado;
 }
 
@@ -20,12 +21,26 @@
     padding: $padding-texto;
     gap: 10px;
     border-radius: $borde-redondeado;
+    font-weight: bold;
+    font-size: 0,3rem;
 }
 
 
 .noticias{
     @include flex-base (wrap, space-evenly);
-    background-color: $color-fondo;
+    background-color: lightgoldenrodyellow;
     align-items: center;
     padding: 30px;
+    font-weight: bold;
+    font-size: 0,5rem;
 }
+
+.campo-redondo{
+    border-radius: 5px;
+    border-color: coral;
+    padding: 8px;
+    background-color: lightgoldenrodyellow;
+
+}
+
+

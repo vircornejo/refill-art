@@ -11,20 +11,41 @@
     gap:20px;
     border-radius: $borde-redondeado;
     border: 1px, solid, $color-h5;
+    
 }
 
+input, text{
+    border-radius: 5px;
+}
 
 footer{
     background-color: $color-fondo;
 }
 
-.redes{
-    @include flex-base (wrap, null);
+.titulo-footer{
+    display:flex;
+    justify-content: center;
+    background-color: $color-fondo;
+    padding: 30px;
+    text-align: center;
+}
+
+.redes ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: $padding-texto;
+    margin: 10px;
     background-color: $color-fondo;
     padding: $padding-contenido;
 }
 
-.instagram {
-    width: 20px;
+.apartado-footer{
+    background-color: lightgoldenrodyellow;
+}
+
+.instagram{
+    width: 40px;
+    margin: 10px;
 }
 

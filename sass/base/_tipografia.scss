@@ -59,18 +59,22 @@ section h2 {
 h3{
     background-color: $color-fondo;
     color: $color-titulo;
-    font-size: 0.3rem;
+    font-size: 20px;
     padding: $padding-texto;
 }
 
 h4 { 
     background-color: $color-fondo;
     color: $color-h4;
-    padding: $padding-texto;
+    padding: $padding-contenido;
+    font-size: 30px;
+    text-align: center;
+
 }
 
 
 h5 {
     color: $color-h5;
+    padding: $padding-texto;
 }
 
